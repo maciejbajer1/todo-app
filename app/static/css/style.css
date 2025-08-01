@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item-success {
+    background-color: #d1e7dd !important;
+    border-color: #badbcc !important;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+}
